@@ -1,3 +1,4 @@
+package VetorMatriz1;
 import java.util.Scanner;
 
 public class leia5Num {
