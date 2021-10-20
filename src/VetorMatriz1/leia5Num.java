@@ -14,13 +14,16 @@ public class leia5Num {
 		
 		
 		for(int x = 0; x < 1; x++){
-
+			System.out.println("Digite um número");
 		    num1[x] = ent.nextInt();{
 
 		    msg += "Posição do vetor: [" + x + "] | Valor armazenado: " + num1[x] + "\n";}
 
 		}
-
+		for(int reader : num1) {
+			System.out.println("Valor: " + reader);
+			}
+			
 		System.out.println(msg);
 		ent.close();
 		
