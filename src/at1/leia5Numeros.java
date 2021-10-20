@@ -1,13 +1,16 @@
 package at1;
 
 import java.util.Scanner;
+public class leia5Numeros{
 
 //Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
-public class leia5Numeros {
+public int[] num1 = new int[5];
+ public String msg = "";
+ {
 		
-	int[] nums = new int[5];
+	
 	Scanner ent = new Scanner(System.in);
-	String msm = "";
+	
 	
 	
 
@@ -15,14 +18,14 @@ public class leia5Numeros {
 	int x = 0;x<5;x++)
 	{
 
-		nums[x] = ent.nextInt();
+		num1[x] = ent.nextInt();
 
-		msm += "Posição do vetor: [" + x + "] | Valor armazenado: " + nums[x] + "\n";
+		msg += "Posição do vetor: [" + x + "] | Valor armazenado: " + num1[x] + "\n";
 
 	}
 
-	System.out.println(msm);
-
+	
+	ent.close();
 }
 
 }
