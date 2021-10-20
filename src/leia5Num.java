@@ -6,11 +6,10 @@ public class leia5Num {
 		// TODO Auto-generated method stub
 		//Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 		
-		int[] num1 = new int[5];
-
+		int[] num1 = new int[1];
 		String msg = "";
 		Scanner ent = new Scanner(System.in);
-		{
+		
 		
 		
 		for(int x = 0; x < 5; x++){
@@ -30,5 +29,5 @@ public class leia5Num {
 }
 	
 
-}
+
 
